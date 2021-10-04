@@ -1,284 +1,805 @@
 <!DOCTYPE html>
-<html lang="es">
-
-<head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
-
-  <title>Hello, world!</title>
-</head>
-
-<body>
-  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-primary">
-    <div class="container-fluid">
-      <a class="navbar-brand text-white" href="#"> <b>Bootstrap</b></a>
-      <ul class="d-flex flex-row-reverse navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <ul class="ms-auto ms-lg-5">
-            <a class="nav-link active text-white"><B>+5555 55555</B></a>
-          </ul>
-        <li class="nav-item">
-          <a class="nav-link disabled text-white" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button"
-            data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown
-          </a>
-
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li>
-              <hr class="dropdown-divider" />
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="bg-white">
+    <nav class="navbar navbar-expand-lg navbar-dark container">
+      <div class="container-fluid">
+        <ul class="nav justify-content-center">
+          <li class="nav-item">
+            <a class="navbar-brand nav-link text-dark" href="">
+              <img
+                src="assets/portada.jpg"
+                alt="imagen"
+                width="25"
+                height="40"
+                class="d-inline-block align-text-top"
+              />
+              Portada
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="navbar-brand nav-link text-dark" href="">
+              <img
+                src="assets/radio.png"
+                alt="imagen"
+                width="40"
+                height="34"
+                class="d-inline-block align-text-top"
+              />
+              Radio MARCA
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="navbar-brand nav-link text-dark" href="">
+              <img
+                src="assets/logo-fantasy-marca.png"
+                alt="imagen"
+                width="40"
+                height="34"
+                class="d-inline-block align-text-top"
+              />
+              Liga Fantasy
+            </a>
+          </li>
+        </ul>
+        <div class="navbar-brand abs" href="#">
+          <img
+            src="assets/marcav1.png"
+            class="ms-1"
+            width="150"
+            height="50"
+            alt=""
+          />
+        </div>
+        <button
+          class="navbar-toggler bg-danger"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarContent">
+          <ul class="navbar-nav ms-md-auto ms-left">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle text-dark"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <img src="assets/españa.jpg" alt="" width="30" height="20" />
+                ES
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <img src="assets/USA.png" alt="" width="35" height="25" />
+                    EN</a
+                  >
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <img
+                      src="assets/alemania.jpg"
+                      alt=""
+                      width="35"
+                      height="25"
+                    />
+                    AL</a
+                  >
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <img src="assets/brz.png" alt="" width="35" height="25" />
+                    PT</a
+                  >
+                </li>
+              </ul>
             </li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <li class="button">
+              <button class="btn btn-danger text-light mt-1 me-2" type="submit">Suscribete</button>
+            </li>
+              <li class="button">
+                  <button class="btn btn-outline-danger mt-1" type="submit">Iniciar sesión</button>
+                </li>
           </ul>
-        </li>
+        </div>
+      </div>
+    </nav>
 
-        <li class="nav-item">
-          <a class="nav-link text-white" href="#">Link</a>
-        </li>
+    <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-danger container-fluid">
+      <div class="container">
+        <a class="navbar-brand" href="#"></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarContent2"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarContent2">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle navbar-dark text-light"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Futbol
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle text-light"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Baloncesto
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown text-light">
+              <a
+                class="nav-link dropdown-toggle text-light"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Motor
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle text-light"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Polideportivo
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle text-light"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Coches
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <a class="nav-link active" aria-current="page" href="#">MAS+</a>
+          </ul>
+        </div>
+        <div>
+          <div class="input-group">
+            <input type="search" 
+            class="form-control" 
+            placeholder="Buscar en marca.com" 
+            aria-label="Recipient's username" 
+            aria-describedby="basic-addon2">
+            <span class="input-group-text" id="basic-addon2">
+                <svg 
+                xmlns="http://www.w3.org/2000/svg" 
+                width="16" 
+                height="16" 
+                fill="currentColor" 
+                class="bi bi-search" 
+                viewBox="0 0 16">
+                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                </svg>
+          </form>
+        </div>
+      </div>
+    </nav>
 
-        <li class="nav-item">
-          <a class="nav-link active text-white" aria-current="page" href="#">
-            <b>Home</b></a>
-        </li>
+    <nav class="navbar navbar-light bg-light">
+      <div class="container-fluid d-flex justify-content-center">
+        <a class="navbar-brand" href="#"><img src="assets/1.png" width="30" height="30"></a>
+        <a class="navbar-brand" href="#"><img src="assets/2.png" width="30" height="30"></a>
+        <a class="navbar-brand" href="#"><img src="assets/3.png" width="30" height="30"></a>
+        <a class="navbar-brand" href="#"><img src="assets/4.png" width="30" height="30"></a>
+        <a class="navbar-brand" href="#"><img src="assets/5.jpg" width="30" height="30"></a>
+        <a class="navbar-brand" href="#"><img src="assets/6.png" width="30" height="30"></a>
+        <a class="navbar-brand" href="#"><img src="assets/7.png" width="30" height="30"></a>
+        <a class="navbar-brand" href="#"><img src="assets/8.png" width="30" height="30"></a>
+        <a class="navbar-brand" href="#"><img src="assets/9.png" width="30" height="30"></a>
+        <a class="navbar-brand" href="#"><img src="assets/10.png" width="30" height="30"></a>
+        <a class="navbar-brand" href="#"><img src="assets/11.jpg" width="30" height="30"></a>
+        <a class="navbar-brand" href="#"><img src="assets/12.png" width="30" height="30"></a>
+        <a class="navbar-brand" href="#"><img src="assets/13.png" width="30" height="30"></a>
+        <a class="navbar-brand" href="#"><img src="assets/14.png" width="30" height="30"></a>
+        <a class="navbar-brand" href="#"><img src="assets/15.png" width="30" height="30"></a>
+        <a class="navbar-brand" href="#"><img src="assets/16.png" width="30" height="30"></a>
+        <a class="navbar-brand" href="#"><img src="assets/17.png" width="30" height="30"></a>
+      </div>
+    </nav>
+<!--1era pag-->
 
-
-        </li>
-      </ul>
-    </div>
-  </nav>
-  <div class="row">
-    <div class="col-12 col-md-12">
-      <div id="carouselExample" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-bs-target="#carouselExample" data-bs-slide-to="0" class="active"></li>
-          <li data-bs-target="#carouselExample" data-bs-slide-to="1"></li>
-          <li data-bs-target="#carouselExample" data-bs-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="./slides/slide1.jpg" alt="..." class="d-block w-100" />
-            <div class="carousel-caption d-none d-md-block">
-              <h5>First slide label</h5>
-              <p>alo soy un placeholder del first slide</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="./slides/slide2.jpg" alt="..." class="d-block w-100" />
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Second slide label</h5>
-              <p>alo soy un placeholder del second slide</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="./slides/slide3.jpg" alt="..." class="d-block w-100" />
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Third slide label</h5>
-              <p>alo soy un placeholder del third slide</p>
-            </div>
+    <div class="container mb-2 mt-2">
+      <div class="row">
+        <div class="col">
+          <div class="text-center">
+            <img src="assets/caliente.png" class="img-fluid" height="200" width="600" alt="">
           </div>
         </div>
-        <a href="#carouselExample" class="carousel-control-prev" role="button" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden"></span>
-        </a>
-        <a href="#carouselExample" class="carousel-control-next" role="button" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden"></span>
-        </a>
+      </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a href="" class="navbar-brand font-weight-bold">Agenda</a>
+        <button class="navbar-toggler" type="button" data-bs-target="#nv" data-bs-toggle="collapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="nv">
+          <ul class="navbar-nav me-auto ">
+            <li class="nav-item bg-danger">
+              <p class="text-white font-weight-bold p-2">En directo</p>
+            </li>
+            <li class="nav-item bg-light me-3">
+              <p class="text-dark  p-2">Todas las noticias <br> Última hora</p>
+            </li>
+            <li class="nav-item bg-danger">
+                <p class="text-white font-weight-bold p-2">Lo mejor del dia</p>
+              </li>
+              <li class="nav-item bg-light me-3">
+                <p class="text-dark  p-2">Agenda <br> Jueves 23</p>
+              </li>
+          </ul>
+        </div>
+        <form action="" class="d-flex">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+              <li class="nav-item dropdown">
+                <a href="" class="nav-link dropdown-toggle" id="nvdropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Ver mas directos
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="nvdropdown">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+              </li>
+            </ul>
+          </form>
+      </div>
+    </nav>
+
+    <div class="container-fluid border-0 p-5">
+
+      
+
+
+    <!--2da pag-->
+    <div class="row border-0 justify-content-center ">
+        <div class="card border-0 col-12 col-md-6">
+            <div class="cr cr-top cr-blue">Champions</div>
+              <div class="ms-5 mt-3" style="background-image: url('https://e00-marca.uecdn.es/assets/multimedia/imagenes/2018/08/22/15349522675666.jpg');">
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                  <p class="text-white mt-5">Describe a los ocho grandes favoritos.</p>
+                  <p class="display-3 text-white"><strong>¿Cuál es el mejor once para reinar Europa? </strong></p>
+              </div>
+            
+            <footer class="border-bottom container-fluid">
+              <a href="#" class="text-danger float-right font-weight-bold p-1">14</a>
+              <img src="assets/comment.png" class="float-right mt-2" height="20px" width="20px">
+              <small class="text-muted p-1">NO TE LO PODRAS CREER OMG</small>
+            </footer>
+          </div>
+          
+        <div class="card border-0 border-bottom mb-auto col-12 col-md-6" style="max-width: 500px;">
+            <div class="row border-0 border-bottom p-2">
+              <div class="col-12 col-md-6">
+                <img src="https://d500.epimg.net/cincodias/imagenes/2017/08/18/smarttv/1503072202_594702_1503073030_noticia_normal.jpg" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-12 col-md-6">
+                <div class="card-body ">
+                  <h5 class="card-title text-primary">Liga Santander</h5>
+                  <p class="card-text">Amenaza con terminar</p>
+                </div>
+              </div>
+              <footer class="border-bottom container-fluid">
+                  <a href="#" class="text-danger float-right font-weight-bold p-1">14</a>
+                  <img src="assets/comment.png" class="float-right mt-2" height="20px" width="20px">
+                  <small class="text-muted p-1">NO TE LO PODRAS CREER OMG</small>
+                </footer>
+            </div>
+            <div class="row border-0 p-2">
+                <div class="col-12 col-md-6">
+                  <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/nuevas-reglas-futbol-1626612709.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-12 col-md-6">
+                  <div class="card-body">
+                    <h5 class="card-title text-primary">Fichajes</h5>
+                    <p class="card-text">Nuevos fichajes</p>
+                </div>
+            </div>
+            <footer class="border-bottom container-fluid">
+                <a href="#" class="text-danger float-right font-weight-bold p-1">14</a>
+                <img src="assets/comment.png" class="float-right mt-2" height="20px" width="20px">
+                <small class="text-muted p-1">NO TE LO PODRAS CREER OMG</small>
+              </footer>
+            </div>
+            <div class="row border-0 p-2">
+                <div class="col-12 col-md-6">
+                  <img src="https://pbs.twimg.com/media/B-HzHzAIUAA3voO.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                  <div class="col-12 col-md-6">
+                  <div class="card-body border-0">
+                    <h5 class="card-title text-primary">Real madrid</h5>
+                    <p class="card-text">El madrid promete mucho en el siguiente partido</p>
+                </div>
+            </div>
+            <footer class="border-bottom container-fluid">
+                <a href="#" class="text-danger float-right font-weight-bold p-1">14</a>
+                <img src="assets/comment.png" class="float-right mt-2" height="20px" width="20px">
+                <small class="text-muted p-1">NO TE LO PODRAS CREER OMG</small>
+              </footer>
+        </div>
       </div>
     </div>
   </div>
-  <div class="container p-5">
-    <h1 class="h1 text-center">Lorem , ipsum dolor.</h1>
-    <p class="lead text-center text-primary">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-      eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-      enim ad minim veniam, quis nostrud exercitation ullamco laboris
-      nisi ut aliquip ex ea commodo consequat.
-    </p>
-  </div>
+      <!-- 3fotos-->
 
+   
+      <div class="container-fluid justify-content-center col-12 col-md-8">
+      <div class="row no-gutters">
+        <div class="card border-0 col-12 col-md-4 p-2">
+          <div class="cr cr-top cr-left cr-blue">Futbol</div>
+          <img
+            class="card-img-top"
+            src="assets/felix.jpg"
+            alt="Card image cap"  
+            style="height: 15rem;"
+          />
+          <div class="card-body">
+            <h5 class="card-title font-weight-bold">
+              Felix Orode Lorem ipsum dolor sit amet consectetur adipisicing
+              elit. Pariatur, alias!
+            </h5>
+          </div>
+          <footer class="border-bottom container-fluid">
+              <a href="#" class="text-danger float-right font-weight-bold p-1">14</a>
+              <img src="assets/comment.png" class="float-right mt-2" height="20px" width="20px">
+              <small class="text-muted p-1">NO TE LO PODRAS CREER OMG</small>
+            </footer>
+        </div>
+        <div class="card border-0 col-12 col-md-4 p-2">
+          <div class="cr cr-top cr-left cr-blue">Futbol</div>
+          <img
+            class="card-img-top"
+            src="https://static1.abc.es/media/summum/2021/07/05/Cristiano_record-kHD--1200x630@abc.jpg"
+            alt="Card image cap"
+            style="height: 15rem;"
+            />
+          <div class="card-body ">
+            <h5 class="card-title font-weight-bold">
+              Cristiano Ronaldo habla sobre Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Nam, cupiditate?
+            </h5>
+          </div>
+          <footer class="border-bottom container-fluid">
+              <a href="#" class="text-danger float-right font-weight-bold p-1">14</a>
+              <img src="assets/comment.png" class="float-right mt-2" height="20px" width="20px">
+              <small class="text-muted p-1">NO TE LO PODRAS CREER OMG</small>
+            </footer>
+        </div>
+        <div class="card border-0 col-12 col-md-4 p-2">
+          <div class="cr cr-top cr-left cr-blue">Futbol</div>
+          <img
+            class="card-img-top"
+            src="https://ca-times.brightspotcdn.com/dims4/default/a56346b/2147483647/strip/true/crop/4000x2667+0+0/resize/840x560!/quality/90/?url=https%3A%2F%2Fapinews.efeservicios.com%2Ffiles%2Fget%2FCfDJ8LjMPfCM-tpGmZOAyAa4uCmZ8_hB5UXT1i5HFujRvHNXsIOKybfdRgTsmb3lRJ8XOELMt2OtE_rooCKDq1ghRXhHGMJjiVReFURcPxZhbaz_kwyW0GFTAX5_B8KREpN3hvpfNlFlfdoqW8gI_HO5bWRMEoFacxlel8UAz1Vl8Ic0jkQjGeMGOsnNUgYJE3Bxe8QgUqFRyT9rGPUFGi-mge8m4FJj_wW0byVEOBvdJxAn9gB9yyd38M-zkFxEhVIuszMwM72xvdIN3eG2TxRdKxyKLWpb5Pwg4O7BptJ09nDDavcgW7kJ2ZoZcJb9DQhxCDofLs8xE3g-F0I41zxzaOGHRDZFx07KSkQ1QQKrifLjvJPPBsNlNWffx0S4D2CeWQ"
+            alt="Card image cap"
+            style="height: 15rem;"
+          />
+          <div class="card-body ">
+            <h5 class="card-title font-weight-bold">
+              La joya celeste que hace Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Iste sequ.
+            </h5>
+          </div>
+          <footer class="border-bottom container-fluid">
+              <a href="#" class="text-danger float-right font-weight-bold p-1">14</a>
+              <img src="assets/comment.png" class="float-right mt-2" height="20px" width="20px">
+              <small class="text-muted p-1">NO TE LO PODRAS CREER OMG</small>
+            </footer>
+        </div>
+      </div>
+    
+
+<!--mini nav-->
+<div class="container-fluid">
+<ul class="nav p-5">
+    <li class="nav-item">
+      <a class="nav-link active text-dark font-weight-bold" href="#">En referencia</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link text-dark" href="#">Lorem, ipsuma.</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link text-dark" href="#">Lorem, ipsum.</a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link text-dark" href="#">Lorem, ipsum.</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-dark" href="#">Lorem, ipsum.</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link text-dark" href="#">Lorem, ipsum.</a>
+            </li>
+
+  </ul>
+</div>
+
+
+  <!-- chingaderitas -->
   <div class="container-fluid">
-    <div class="row justify-content-center mb-5">
-      <div class="col-12 col-md-3 ">
-        <div class="card" style="width: 18rem;">
-          <img src="slides/slide1.jpg" class="card-img-top" alt="..." />
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-              do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              Ut enim ad minim veniam, quis nostrud exercitation ullamco
-              laboris nisi ut aliquip ex ea commodo consequat.
-            </p>
-            <a class="btn btn-primary text-white">Más informacion</a>
+      
+
+      <div class="row justify-content-between">
+
+          <div class="col-md-4 col-6">
+              <div class="card border-0">
+                  <div class="row">
+                    <div class="col-4">
+                      <img src="https://as01.epimg.net/futbol/imagenes/2021/10/04/internacional/1633342894_497357_1633342982_portada_normal.jpg" class="img-fluid">
+                    </div>
+                    <div class="col-8">
+                      <div class="media-body">
+                          <span class="text-primary">Jugador la seleccion</span>
+                        <h5 class="font-weight-bold">Increible Lorem ipsum dolor sit amet consectetur.</h5>
+                        
+                      </div>
+                    </div>
+                  </div>
+                  <footer class="border-bottom container-fluid">
+                      <a href="#" class="text-danger float-right font-weight-bold p-1">14</a>
+                      <img src="assets/comment.png" class="float-right mt-2" height="20px" width="20px">
+                      <small class="text-muted p-1">NO TE LO PODRAS CREER OMG</small>
+                    </footer>
+              </div>
           </div>
-        </div>
+
+
+
+          <div class="col-md-4 col-6">
+            <div class="card border-0">
+                <div class="row">
+                  <div class="col-4">
+                    <img src="https://www.oldfootballshirts.com/img/shirts/341/brazil-home-football-shirt-2019-2020-s_76710_2.jpg" class="img-fluid">
+                  </div>
+                  <div class="col-8">
+                    <div class="media-body">
+                      <span class="text-primary">Jugador do Brazil</span>
+                      <h5 class="font-weight-bold">Grabando o video mai increible du Mundo</h5>
+                    </div>
+                  </div>
+                </div>
+                <footer class="border-bottom container-fluid">
+                    <a href="#" class="text-danger float-right font-weight-bold p-1">14</a>
+                    <img src="assets/comment.png" class="float-right mt-2" height="20px" width="20px">
+                    <small class="text-muted p-1">NO TE LO PODRAS CREER OMG</small>
+                  </footer>
+            </div>
+          </div>
       </div>
-      <div class="col-12 col-md-3">
-        <div class="card" style="width: 18rem;">
-          <img src="slides/slide1.jpg" class="card-img-top" alt="..." />
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-              do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              Ut enim ad minim veniam, quis nostrud exercitation ullamco
-              laboris nisi ut aliquip ex ea commodo consequat.
-            </p>
-            <a class="btn btn-primary text-white">Más informacion</a>
+
+      <!--2do card-deck-->
+  </div>
+    <br>
+        <div class="row no-gutters col-12 col-md-8">
+          <div class="card border-0 col-12 col-md-6 p-2">
+            <div class="cr cr-top cr-left cr-blue">Futbol</div>
+            <img
+              class="card-img-top img-fluid"
+              src="https://e00-marca.uecdn.es/assets/multimedia/imagenes/2021/10/04/16333742030421.jpg"
+              alt="Card image cap"
+              style="height: 15rem;"
+            />
+            <div class="card-body">
+              <h5 class="card-title font-weight-bold">
+                Le marca falta el arbitro y sale mal (no click bait)
+              </h5>
+            </div>
+            <footer class="border-bottom container-fluid">
+                <a href="#" class="text-danger float-right font-weight-bold p-1">14</a>
+                <img src="assets/comment.png" class="float-right mt-2" height="20px" width="20px">
+                <small class="text-muted p-1">NO TE LO PODRAS CREER OMG</small>
+              </footer>
           </div>
-        </div>
-      </div>
-      <div class="col-12col-md-3">
-        <div class="card" style="width: 18rem;">
-          <img src="slides/slide1.jpg" class="card-img-top" alt="..." />
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-              do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              Ut enim ad minim veniam, quis nostrud exercitation ullamco
-              laboris nisi ut aliquip ex ea commodo consequat.
-            </p>
-            <a class="btn btn-primary text-white">Más informacion</a>
-          </div>
+          <div class="card border-0 col-12 col-md-6 p-2">
+            <div class="cr cr-top cr-left cr-blue">Madrid</div>
+            <img
+              class="card-img-top"
+              src="https://cristianoronaldoelbicho.files.wordpress.com/2014/06/cristiano-ronaldo-real-madrid.jpg"
+              alt="Card image cap"
+              style="height: 15rem;"
+            />
+            <div class="card-body">
+              <h5 class="card-title font-weight-bold">
+                El bicho se va del madrid porque allí hay covid-19
+              </h5>
+            </div>
+            <footer class="border-bottom container-fluid">
+                <a href="#" class="text-danger float-right font-weight-bold p-1">14</a>
+                <img src="assets/comment.png" class="float-right mt-2" height="20px" width="20px">
+                <small class="text-muted p-1">NO TE LO PODRAS CREER OMG</small>
+              </footer>
+            </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <div class="container justify-content-center">
-    <div class="jumbotron">
-      <h1 class="display-4">Hello, world!</h1>
-      <p class="lead">
-        This is a simple hero unit, a simple jumbotron-style component for
-        calling extra attention to featured content or information.
-      </p>
-      <hr class="my-4" />
-      <p class="lead">
-        It uses utility classes for typography and spacing to space
-        content out within the larger container.
-      </p>
-      <p class="lead">
-        <a class="btn btn-primary btn-md text-white" role="button">Learn more</a>
-      </p>
-    </div>
-  </div>
-  <div class="p-2">
-    <div class="container">
-      <div class="row justify-content-center mb-4">
-        <div class="container p-5">
-          <h1 class="h1 text-center">Lorem , ipsum dolor.</h1>
-          <p class="lead text-center text-primary">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit sapiente molestiae in delectus ex animi?
-            Necessitatibus cupiditate provident a voluptates earum exercitationem deserunt tenetur, placeat beatae
-            explicabo libero cumque et?
-          </p>
+      <br>
+      <br>
+      <div class="container-fluid bg-dark col-12 justify-content-center">
+        <div class="p-5 mb-5">
+        <h1 class="lead text-center font-weight-bold text-light mb-4">Otras webs de Unidad Editorial</h1>
+    <footer class="row row-cols-4 py-4 my-1 border-top text-light">
+        <div class="col ">
+            <h5>Marca</h5>
+            <ul class="nav flex-column">
+                <li class="nav-item mb-2">
+                    <a href="#" class="nav-link p-0 text-muted">App Marca</a>
+                </li>
+                <li class="nav-item mb-2">
+                    <a href="#" class="nav-link p-0 text-muted">Apuestas Deportivas</a>
+                </li>
+                <li class="nav-item mb-2">
+                    <a href="#" class="nav-link p-0 text-muted">Clasificación LaLiga</a>
+                </li>
+                <li class="nav-item mb-2">
+                    <a href="#" class="nav-link p-0 text-muted">Calendario LaLiga</a>
+                </li>
+                <li class="nav-item mb-2">
+                    <a href="#" class="nav-link p-0 text-muted">Hemeroteca Marca</a>
+                </li>
+                <li class="nav-item mb-2">
+                    <a href="#" class="nav-link p-0 text-muted">Marca eSports</a>
+                </li>
+                <li class="nav-item mb-2">
+                    <a href="#" class="nav-link p-0 text-muted">Marca Madrid</a>
+                </li>
+                <li class="nav-item mb-2">
+                    <a href="#" class="nav-link p-0 text-muted">Marca en Orbyt</a>
+                </li>
+                <li class="nav-item mb-2">
+                    <a href="#" class="nav-link p-0 text-muted">Zona Marca</a>
+                </li>
+            </ul>
         </div>
-        <div class="col-md-6">
-          <div id="accordion">
-            <div class="card">
-              <div class="card-header bg-primary" id="headingOne">
-                <h5 class="mb-0">
-                  <button class="btn text-light " data-bs-toggle="collapse" data-bs-target="#collapseOne"
-                    aria-expanded="false" aria-controls="collapseOne">
-                    Collapsible Group Item #1
-                  </button>
-                </h5>
-              </div>
-              <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-                <div class="card-body">
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores, accusantium deserunt qui architecto
-                  facilis aspernatur, quis tempore explicabo totam vero repudiandae? Dolores mollitia voluptate iste
-                  totam, sit vitae optio, nam odio, magni veritatis iusto praesentium natus! Quaerat, voluptatibus,
-                  omnis earum eveniet dolores voluptas eius repellendus vero provident iste et modi?
-                </div>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-header bg-primary" id="headingTwo">
-                <h5 class="mb-0">
-                  <button class="btn text-light collapsed" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
-                    aria-expanded="false" aria-controls="collapseTwo">
-                    Collapsible Group Item #2
-                  </button>
-                </h5>
-              </div>
-              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-                <div class="card-body">
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint, modi. Omnis eligendi repellat quae!
-                  Provident quam facilis placeat tenetur nisi nesciunt blanditiis quod sint ab nulla molestias,
-                  consectetur aliquid autem fugiat ex soluta architecto voluptate pariatur maxime voluptatem. Sit, eos
-                  molestiae? Ea quasi quia delectus nostrum, itaque dolorum nesciunt aspernatur.
-                </div>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-header bg-primary" id="headingThree">
-                <h5 class="mb-0">
-                  <button class="btn text-light collapsed" data-bs-toggle="collapse" data-bs-target="#collapseThree"
-                    aria-expanded="false" aria-controls="collapseThree">
-                    Collapsible Group Item #3
-                  </button>
-                </h5>
-              </div>
-              <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-                <div class="card-body">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam cum dolore, voluptatem quibusdam
-                  minima, recusandae veritatis commodi distinctio iste vitae atque reiciendis qui optio voluptates nihil
-                  libero ut consequatur repellendus asperiores rerum eos? Cumque sunt placeat quasi doloribus quod vitae
-                  iste architecto, aspernatur mollitia voluptatum, omnis similique sint nobis quae?
-                </div>
-              </div>
-            </div>
-          </div>
+        <div class="col">
+            <h5>Ocio y Moda</h5>
+            <ul class="nav flex-column">
+                <li class="nav-item mb-2">
+                    <a href="#" class="nav-link p-0 text-muted">Tiramillas</a>
+                </li>
+                <li class="nav-item mb-2">
+                    <a href="#" class="nav-link p-0 text-muted">Moda-Teiva</a>
+                </li>
+                <li class="nav-item mb-2">
+                    <a href="#" class="nav-link p-0 text-muted">BUHO Magazine</a>
+                </li>
+                <li class="nav-item mb-2">
+                    <a href="#" class="nav-link p-0 text-muted">Traductor</a>
+                </li>
+                <li class="nav-item mb-2">
+                    <a href="#" class="nav-link p-0 text-muted">Programacion TV</a>
+                </li>
+                <li class="nav-item mb-2">
+                    <a href="#" class="nav-link p-0 text-muted">Marca Entrada</a>
+                </li>
+                <li class="nav-item mb-2">
+                    <a href="#" class="nav-link p-0 text-muted">Mi bebe y yo</a>
+                </li>
+            </ul>
         </div>
-        <div class="col-md-6">
-          <img src="slides/slide1.jpg" class="img-fluid" />
-          <div class="list-group" id="list-tab" role="tablist">
-            <a class="list-group-item list-group-item-action active" id="list-home-list" data-bs-toggle="list"
-              href="#list-home" role="tab" aria-controls="list-home">Lorem ipsum dolor sit amet.</a>
-            <a class="list-group-item list-group-item-action" id="list-profile-list" data-bs-toggle="list"
-              href="#list-profile" role="tab" aria-controls="list-profile">Lorem ipsum dolor sit.</a>
-            <a class="list-group-item list-group-item-action" id="list-messages-list" data-bs-toggle="list"
-              href="#list-messages" role="tab" aria-controls="list-messages">Lorem ipsum dolor sit amet.</a>
-            <a class="list-group-item list-group-item-action" id="list-settings-list" data-bs-toggle="list"
-              href="#list-settings" role="tab" aria-controls="list-settings">Lorem, ipsum dolor.</a>
-            <a class="list-group-item list-group-item-action" id="list-settings-list" data-bs-toggle="list"
-              href="#list-settings" role="tab" aria-controls="list-settings">Lorem ipsum dolor sit.</a>
-          </div>
+        <div class="col">
+            <h5>Unidad Editorial</h5>
+            <ul class="nav flex-column">
+                <li class="nav-item mb-2">
+                    <a href="#" class="nav-link p-0 text-muted">El Mundo</a>
+                </li>
+                <li class="nav-item mb-2">
+                    <a href="#" class="nav-link p-0 text-muted">Expansión</a>
+                </li>
+                <li class="nav-item mb-2">
+                    <a href="#" class="nav-link p-0 text-muted">CuidatePlus</a>
+                </li>
+                <li class="nav-item mb-2">
+                    <a href="#" class="nav-link p-0 text-muted">Diario Médico</a>
+                </li>
+                <li class="nav-item mb-2">
+                    <a href="#" class="nav-link p-0 text-muted">Correo Farmacéutico</a>
+                </li>
+                <li class="nav-item mb-2">
+                    <a href="#" class="nav-link p-0 text-muted">Suscripción Marca</a>
+                </li>
+                <li class="nav-item mb-2">
+                    <a href="#" class="nav-link p-0 text-muted">Suscripción El Mundo</a>
+                </li>
+            </ul>
         </div>
-      </div>
-    </div>
-  </div>
+        <div class="col">
+            <h5>Formación y Empleo</h5>
+            <ul class="nav flex-column">
+                <li class="nav-item mb-2">
+                    <a href="#" class="nav-link p-0 text-muted">Escuela Unidad Editorial</a>
+                </li>
+                <li class="nav-item mb-2">
+                    <a href="#" class="nav-link p-0 text-muted">Unidad Editorial</a>
+                </li>
+                <li class="nav-item mb-2">
+                    <a href="#" class="nav-link p-0 text-muted">Expensión y Empleo</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</div>
+</div>
 
-  <div class="col-12 col-md-12 p-3 bg-dark text-white text-center">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est magni corporis, aperiam, aspernatur consectetur
-      aliquid totam ipsum sed maxime architecto voluptas nam quisquam iure rerum accusantium vitae sequi. Debitis,
-      beatae.</p>
-  </div>
+<div class="container">
+    <footer class="py-3 my-4">
+        <p class="text-center font-weight-bold">Agosto 2018 Unidad editorial Imformacion Deportiva, S.L.U. Todos Los derechos reservados.</p>
+    <ul class=" nav justify-content-center pb-3 mb-3 text-muted">
+        <li class="nav-item">
+            <a href="#" class="nav-link text-dark px-2">Terminos y condiciones de uso</a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class="nav-link text-dark px-2">Politica de privacidad</a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class="nav-link text-dark px-2">Politica de cookies</a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class="nav-link text-dark px-2">Calificado por OJD</a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class="nav-link text-dark px-2">Contacto</a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class="nav-link text-dark px-2">Publicidad</a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class="nav-link text-dark px-2">Ayuda</a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class="nav-link text-dark px-2">Nuestro Equipo</a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class="nav-link text-dark px-2">Venta de contenidos</a>
+        </li>
+    </ul>
+    <p class="text-center font-weight-bold">Siguenos en</p>
+    <ul class="nav justify-content-center">
+        <li class="me-2 p-2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+              </svg>
+        </li>
+        <li class="me-2 p-2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+              </svg>
+        </li>
+        <li class="me-2 p-2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+              </svg>
+        </li>
+    </ul>
+    </footer>
+</div>
 
-  <!-- Optio
-    </div>nal JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
-    crossorigin="anonymous"></script>
-
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"
+  ></script>
 </html>

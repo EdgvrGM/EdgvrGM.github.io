@@ -1,0 +1,81 @@
+body {
+  background: #f0f0f0;
+  font-family: sans-serif;
+}
+
+.cr {
+  width: auto;
+  padding: 4px;
+  position: absolute;
+  text-align: center;
+  color: #f0f0f0;
+}
+
+.cr-sticky {
+  position: fixed;
+}
+
+/* Positions */
+
+.cr-top {
+  top: 8px;
+}
+.cr-bottom {
+  bottom: 25px;
+}
+.cr-left {
+  left: 8px;
+}
+.cr-right {
+  right: -50px;
+}
+
+/* Colors */
+
+.cr-white {
+  background-color: #f0f0f0;
+  color: #444;
+}
+.cr-black {
+  background-color: #333;
+}
+.cr-grey {
+  background-color: #999;
+}
+.cr-blue {
+  background-color: #39d;
+}
+.cr-green {
+  background-color: #2c7;
+}
+.cr-turquoise {
+  background-color: #1b9;
+}
+.cr-purple {
+  background-color: #95b;
+}
+.cr-red {
+  background-color: #e43;
+}
+.cr-orange {
+  background-color: #e82;
+}
+.cr-yellow {
+  background-color: #ec0;
+}
+
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+
+  > .col,
+  > [class*="col-"] {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+.maintxt {
+  background-image: url(https://e00-marca.uecdn.es/assets/multimedia/imagenes/2018/08/22/15349522675666.jpg);
+  background-size: cover;
+}
